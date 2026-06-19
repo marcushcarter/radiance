@@ -28,8 +28,9 @@ file(MAKE_DIRECTORY ${RADIANCE_GENERATED_DIR})
 
 radiance_generate_asset_rc(
     ${RADIANCE_GENERATED_DIR}/embedded_assets.rc
+    ${CMAKE_SOURCE_DIR}/assets/fonts
+    ${CMAKE_SOURCE_DIR}/assets/logos
     ${CMAKE_SOURCE_DIR}/assets/shaders
-    ${CMAKE_SOURCE_DIR}/assets/textures
     ${CMAKE_SOURCE_DIR}/assets/skybox
 )
 
