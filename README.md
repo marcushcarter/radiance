@@ -18,8 +18,8 @@
 
 ### Clone Repository
 ```bash
-git clone --recursive https://github.com/marcushcarter/Radiance.git radiance
-cd radiance
+git clone --recursive https://github.com/marcushcarter/Radiance.git Radiance
+cd Radiance
 git submodule update --init --recursive
 ```
 
